@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --primary-color: #cf7500;
+}
+
+// General Styling
+
+h1, h2 {
+    font-family: "Playfair Display";
+}
+  
+h1 {
+    font-size: 2.8em;
+}
+ 
+p {
+    font-family: "Work Sans";
+    font-size: 1.125em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-h1 {
+color: white;
+font-size: 3.75em;
+}
+
+.bg-p {
+    color: white;
+}
+
+.subheader {
+    color: var(--primary-color);
+    font-size: 1.125em;
+    font-family: "Playfair Display";
+}
+
+.start-button {
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--primary-color);
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.7em;
+    font-family: "Work Sans";
+
+    img {
+        padding-left: 1em;
+        width: 1.7em;
+        height: 1.7em;
+        align-self: center;
+
+    }
+}
+
+// Nav Bar
+
+.logo-name {
+  font-size: 1.875em;
+  color: white;
+  padding-left: 1rem;
+}
+
+#contact {
+    width: fit-content;
+    height: fit-content;
+    background: var(--primary-color);
+    color: white;
+    top: 100%;
+    margin-left: 1.5em;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    font-size: 1em;
+    font-family: "Work Sans";
+}
+
+.navbar {
+    nav {
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row; 
+
+        a {
+            color: white;
+            font-size: 1.5em;
+            margin-right: 1.5em;
+            position: relative;
+            top: 85%;
+        }
+    }
+
+    .container{
+        display: flex;
+        place-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 5em;
+        margin-right: 3.5em;
+    }
+
+    .nav-title {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bg-h1 {
+        width: 40rem;
+        margin-left: 3rem;
+        margin-top: 6rem;
+    }
+
+    .bg-p {
+        width: 40rem;
+        margin-left: 3rem;
+        margin-top: 6rem;
+    }
+
+    .main-cta {
+        margin-top: 4rem;
+    }
+
+}
+
+#hero-start-button {
+    margin-left: -2rem;
+}
+
+.hero {
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+    background-position-x: 40%;
+    height: 75vh;
+}
+
+// About Us
+
+.about-us {
+
+    .subheader {
+        margin-bottom: -1.5em;
+    }
+
+    .desc-title {
+        margin-bottom: -0.15em;
+    }
+
+    .main-about-us {
+        display: flex;
+        flex-direction: row;
+        margin-top: 7.625em;
+
+        .container-images {
+            position: relative;
+            margin-left: 3em;
+            height: fit-content;
+            width: fit-content;
+          }
+          
+          .waterfall {
+            z-index: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+
+          .mountains {
+            z-index: 1;
+            position: absolute;
+            top: 15em;
+            left: 20em;
+          }
+    }
+
+    .container-desc {
+        width: 80vh;
+        margin-left: 12em;
+    }
+}
+
+.features {
+    margin-top: 8rem;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10em;
+        margin-right: 10em;
+        
+        div {
+            width: 17em;
+            height: fit-content;
+            box-shadow: 0.15em 0.15em 0.5em 0.5em #f7f7f7;
+            padding: 1.5rem 0.4rem 0.8rem 2rem;
+            
+            h3 {
+                font-family: "Playfair Display";
+                font-size: 1.5em;
+                margin-top: 0;
+            }
+
+            p {
+                margin-top: -0.4em;
+            }
+
+        }
+    }
+}
+
+// Around the World
+
+.exploration {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        transform: translateX(0%);            
+        margin: 0;
+
+        p {
+            margin: 6rem 0 0 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 0.2em 0 0 0.5em;
+            padding: 0;
+        }
+    }
+}
+
+.places {
+    margin: 3rem 0 5rem 0;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            flex-wrap: wrap;
+            background-size: 100% 100%;
+            margin: 0 1rem 0 1rem;
+            height: 120%;
+            width: 25rem;
+            background: no-repeat;
+            background-size: 100%;
+            background-position: 100% 50%;
+            text-align: center;
+
+            h3 {
+                font-family: "Playfair Display";
+                font-size: 1.5em;
+                color: white;
+                margin-bottom: 0rem;           
+            }
+            
+            p {
+                align-self: center;
+                font-family: "Work Sans";
+                font-size: 1em;
+                color: white;
+                margin-bottom: 3rem;
+                width: 25rem;
+            }
+        }
+    }
+}
+
+// Reviews
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    
+    .container-desc {
+        width: 80vh;
+        margin-left: 6.5rem;
+        transform: translateY(25%);            
+    }
+
+    .subheader {
+        margin-bottom: -2.1rem;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    #rooftop {
+        position: relative;
+        top: 4rem;
+        left: 20rem;
+        scale: 115%;
+    }
+}
+
+// Install the App
+
+.app {
+    text-align: center;
+    background-image: url(images/airport.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 40%;
+    height: 65vh;
+    margin-top: 10rem;
+
+    .bg-h1 {
+        margin-top: 0;
+    }
+
+    .subheader {
+        padding-top: 5rem;
+    }
+
+    .container-desc {
+        display: flex;
+        justify-content: center;
+        width: 100;
+    }
+    .desc {
+        width: 43rem;
+        color: white;
+    }
+}
+
+// Foooter
+
+.footer {
+    background: black;
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .footer-title-container {
+        width: min-content;
+        display: flex;
+        flex-direction: row;
+        margin-left: 4.3rem;
+        align-self: start;
+    }
+
+    .footer-sub {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+
+        p {
+            line-height: 0.75em;
+        }
+    }
+
+    .number {
+        margin-left: 0.75em;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p, h3, a {
+        color: white;
+        font-family: "Josefin Sans";
+    }
+
+    h3 {
+        font-size: 1.2em;
+        }
+
+    p, a {
+        line-height: 3em;
+        font-size: 1em;
+    }
+
+    h2 {
+        color: white;
+        margin-left: 1rem;
+    }
+
+    h3, li {
+        margin-left: 6rem;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    hr {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .footer-images {
+        margin-left: 4.3rem;
+
+        li {
+            margin-left: 0;
+        }
+
+        img {
+            margin-right: 2rem;
+        }
+    }
+}
+
+// // Resize Nav Bar- Mobile Phones
+
+// @media only screen and (max-width: 700px) {
+//     .logo-name {
+//         font-size: 1.875em;
+//         padding-left: 0.25rem;
+//     }
+    
+//     #contact {
+//         width: fit-content;
+//         height: fit-content;
+//         background: var(--primary-color);
+//         top: 100%;
+//         margin-left: 1.5em;
+//         padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+//         font-size: 1em;
+//         font-family: "Work Sans";
+//     }
+    
+//     .navbar {
+//         nav {
+//             text-align: center;
+//         }
+    
+//         ul {
+//             display: flex;
+//             flex-direction: row; 
+    
+//             a {
+//                 color: black;
+//                 font-size: 1.5em;
+//                 margin-right: 1.5em;
+//                 position: relative;
+//                 top: 85%;
+//             }
+//         }
+    
+//         .container{
+//             display: flex;
+//             place-content: space-between;
+//             flex-wrap: wrap;
+//             margin-left: 5em;
+//             margin-right: 3.5em;
+//         }
+    
+//         .nav-title {
+//             display: flex;
+//             flex-direction: row;
+//         }
+    
+//         .bg-h1 {
+//             width: 40rem;
+//             margin-left: 3rem;
+//             margin-top: 6rem;
+//         }
+    
+//         .bg-p {
+//             width: 40rem;
+//             margin-left: 3rem;
+//             margin-top: 6rem;
+//         }
+    
+//         .main-cta {
+//             margin-top: 4rem;
+//         }
+    
+//     }
+    
+//     #hero-start-button {
+//         margin-left: -2rem;
+//     }
+    
+//     .hero {
+//         background-image: url(images/hero.png);
+//         background-repeat: no-repeat;
+//         background-position: top;
+//         height: 75vh;
+//     }
+// }
+
+// @media only screen and (max-width: 1275px) {
+//     #hero-start-button {
+//         margin-left: -2rem;
+//     }
+    
+//     .hero {
+//         background-image: url(images/hero.png);
+//         background-repeat: no-repeat;
+//         background-size: 100%;
+//         background-position: top;
+//         height: 75vh;
+//     }
+// }
