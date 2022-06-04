@@ -7,11 +7,11 @@ This repository contains the projects I worked on in the past years.
 
 # JavaScript
 
-- Tic Tac Toe - A Tic Tac Toe game made using HTML, CSS, and Javascript
+- Tic Tac Toe - A Tic Tac Toe game made using HTML, CSS, and Javascript.
 
 # Figma - UI/UX Design
 
-- Clock App - This is an App Design for a general purpose Clock/Reminder/Timer/Stopwatch App
+- Clock App - This is an App Design for a general purpose Clock/Reminder/Timer/Stopwatch App.
 
 # Android
 
