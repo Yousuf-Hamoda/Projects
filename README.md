@@ -3,7 +3,7 @@ This repository contains the projects I worked on in the past years.
 
 # HTML & CSS
 
-- Travello - This is a project I have made in order to develop and increase my Front-End skills. Although the design isn't made by me (It is a design found on Figma), all of the CSS and HTML is.
+- Travello - This is a project I have made in order to develop and increase my Front-End skills. Although the design isn't made by me (It is a design found on Figma), all of the CSS and HTML is my own.
 
 # JavaScript
 
