@@ -3,16 +3,16 @@ This repository contains the projects I worked on in the past years.
 
 # HTML & CSS
 
-- Travello - This is a project I have made in order to develop and increase my Front-End skills. Although the design isn't made by me (It is a design found on Figma), all of the CSS and HTML is my own.
+- Travello - This is an in-progress website I made for a traveling app for finding places, getting tickets, and finding guides to help you with your travels. The UI for this is designed to fit a modern aesthetic and be visually pleasing.
 
 # JavaScript
 
-- Tic Tac Toe - A Tic Tac Toe game made using HTML, CSS, and Javascript.
+- Tic Tac Toe - This is a 2 Player Tic Tac Toe website I made using JavaScript. It has a minimalistic design in order to make the gameplay the main center of focus. The gameplay itself is the same as the general Tic Tac Toe game.
 
 # Figma - UI/UX Design
 
-- Clock App - This is an App Design for a general purpose Clock/Reminder/Timer/Stopwatch App.
+- Clock App - This  is a general purpose Clock App created using Kotlin and Google's new Front-End System: Jetpack Compose. This app has Alarms, Reminders, Timers, and a Stopwatch System implemented as well as using android widgets and notifications to display all the necessary information. This app is still in progress and currently being worked on. 
 
 # Android
 
-- Clock App - I am currently working on this project. It is a general purpose Clock App created using Kotlin and Google's new Front-End System: Jetpack Compose which operates on Kotlin.
+- Clock App - This is a Design for a general purpose Clock App. I used Figma in order to create a design for the Clock App. I implemented modern design techniques and color theory to craft a pleasing app design.
